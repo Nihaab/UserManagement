@@ -1,0 +1,737 @@
+2025-12-30 09:56:48.937  INFO 26668 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 26668 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 09:56:48.940  INFO 26668 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 09:56:48.975  INFO 26668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-30 09:56:48.975  INFO 26668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-30 09:56:49.340  INFO 26668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 09:56:49.376  INFO 26668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2025-12-30 09:56:49.734  INFO 26668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 09:56:49.744  INFO 26668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 09:56:49.745  INFO 26668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 09:56:49.797  INFO 26668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 09:56:49.798  INFO 26668 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 823 ms
+2025-12-30 09:56:49.846  WARN 26668 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2025-12-30 09:56:49.848  INFO 26668 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 09:56:49.856  INFO 26668 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-12-30 09:56:49.869 ERROR 26668 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-12-30 09:57:57.607  INFO 9440 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 9440 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 09:57:57.608  INFO 9440 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 09:57:57.642  INFO 9440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-30 09:57:57.642  INFO 9440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-30 09:57:58.168  INFO 9440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 09:57:58.174  INFO 9440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 09:57:58.175  INFO 9440 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 09:57:58.216  INFO 9440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 09:57:58.216  INFO 9440 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 574 ms
+2025-12-30 09:57:58.442  INFO 9440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 09:57:58.467  INFO 9440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 09:57:58.474  INFO 9440 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 1.108 seconds (JVM running for 1.562)
+2025-12-30 09:59:54.163  INFO 9440 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-30 09:59:54.164  INFO 9440 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-30 09:59:54.169  INFO 9440 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-12-30 09:59:54.335  INFO 9440 --- [http-nio-8080-exec-5] com.user.controller.UserController       : User Details: User [uid=101, uname=Nihaab, uaddress=Wagholi, country=null, userEmail=abc@gmail.com]
+2025-12-30 10:00:10.606  INFO 9440 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 10:00:10.632  INFO 9440 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 10:00:10.634  INFO 9440 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-12-30 10:00:10.687  INFO 9440 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 9440 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 10:00:10.688  INFO 9440 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 10:00:10.857  INFO 9440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 10:00:10.858  INFO 9440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 10:00:10.858  INFO 9440 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 10:00:10.869  INFO 9440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 10:00:10.869  INFO 9440 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 179 ms
+2025-12-30 10:00:10.926  INFO 9440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 10:00:10.936  INFO 9440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 10:00:10.940  INFO 9440 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.268 seconds (JVM running for 134.028)
+2025-12-30 10:00:10.943  INFO 9440 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 10:00:12.351  INFO 9440 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 10:00:12.360  INFO 9440 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 10:00:12.410  INFO 9440 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 9440 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 10:00:12.410  INFO 9440 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 10:00:12.500  INFO 9440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 10:00:12.500  INFO 9440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 10:00:12.501  INFO 9440 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 10:00:12.509  INFO 9440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 10:00:12.510  INFO 9440 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 99 ms
+2025-12-30 10:00:12.549  INFO 9440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 10:00:12.554  INFO 9440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 10:00:12.555  INFO 9440 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.166 seconds (JVM running for 135.643)
+2025-12-30 10:00:12.557  INFO 9440 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 10:00:16.283  INFO 9440 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-30 10:00:16.284  INFO 9440 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-30 10:00:16.285  INFO 9440 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-30 10:00:16.289  INFO 9440 --- [http-nio-8080-exec-4] com.user.controller.UserController       : User Details: User [uid=101, uname=Nihaab, uaddress=Wagholi, country=null, userEmail=abc@gmail.com]
+2025-12-30 10:03:18.737  INFO 9440 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-12-30 10:03:18.750  INFO 9440 --- [RMI TCP Connection(18)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 10:03:18.751  INFO 9440 --- [RMI TCP Connection(18)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-12-30 11:27:03.574  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 11:27:03.575  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 11:27:03.636  INFO 11748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-30 11:27:03.636  INFO 11748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-30 11:27:04.201  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 11:27:04.260  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2025-12-30 11:27:04.780  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 11:27:04.806  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 11:27:04.807  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 11:27:04.889  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 11:27:04.890  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1254 ms
+2025-12-30 11:27:05.057  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 11:27:05.118  INFO 11748 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-12-30 11:27:05.264  INFO 11748 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-12-30 11:27:05.372  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-30 11:27:05.527  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-30 11:27:05.547  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 11:27:06.057  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 11:27:06.066  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:27:06.304  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 11:27:06.565  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 11:27:06.599  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 11:27:06.611  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 3.464 seconds (JVM running for 4.455)
+2025-12-30 11:27:54.560  INFO 11748 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-30 11:27:54.561  INFO 11748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-30 11:27:54.563  INFO 11748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-30 11:27:54.753  INFO 11748 --- [http-nio-8080-exec-2] com.user.controller.UserController       : User Details: User [uid=101, uname=Nihaab, uaddress=Wagholi, country=null, userEmail=abc@gmail.com]
+2025-12-30 11:27:54.754  INFO 11748 --- [http-nio-8080-exec-2] com.user.service.UserServiceImpl         : I'm in user service layer......
+2025-12-30 11:27:54.754  INFO 11748 --- [http-nio-8080-exec-2] com.user.service.UserServiceImpl         : User is....... User [uid=101, uname=Nihaab, uaddress=Wagholi, country=null, userEmail=abc@gmail.com]
+2025-12-30 11:27:54.910  INFO 11748 --- [http-nio-8080-exec-2] com.user.service.UserServiceImpl         : User Added.........!!!!!
+2025-12-30 11:28:11.542  INFO 11748 --- [http-nio-8080-exec-3] com.user.controller.UserController       : User Details: User [uid=101, uname=Nihaab, uaddress=Wagholi, country=India, userEmail=abc@gmail.com]
+2025-12-30 11:28:11.546  INFO 11748 --- [http-nio-8080-exec-3] com.user.service.UserServiceImpl         : I'm in user service layer......
+2025-12-30 11:28:11.549  INFO 11748 --- [http-nio-8080-exec-3] com.user.service.UserServiceImpl         : User is....... User [uid=101, uname=Nihaab, uaddress=Wagholi, country=India, userEmail=abc@gmail.com]
+2025-12-30 11:28:11.571  INFO 11748 --- [http-nio-8080-exec-3] com.user.service.UserServiceImpl         : User Added.........!!!!!
+2025-12-30 11:33:10.792  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-12-30 11:33:10.809  INFO 11748 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 11:33:10.811  INFO 11748 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-12-30 11:33:10.817  INFO 11748 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:33:10.823  INFO 11748 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-30 11:33:10.834  INFO 11748 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-30 11:33:10.917  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 11:33:10.917  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 11:33:11.049  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 11:33:11.051  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2025-12-30 11:33:11.116  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 11:33:11.116  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 11:33:11.116  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 11:33:11.127  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 11:33:11.127  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 208 ms
+2025-12-30 11:33:11.157  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 11:33:11.159  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-12-30 11:33:11.164  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-12-30 11:33:11.164  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 11:33:11.193  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 11:33:11.194  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:33:11.241  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 11:33:11.347  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 11:33:11.379  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 11:33:11.385  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.499 seconds (JVM running for 369.229)
+2025-12-30 11:33:11.388  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 11:34:15.113  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 11:34:15.141  INFO 11748 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 11:34:15.146  INFO 11748 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:34:15.146  INFO 11748 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-12-30 11:34:15.158  INFO 11748 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-12-30 11:34:15.227  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 11:34:15.227  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 11:34:15.339  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 11:34:15.345  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2025-12-30 11:34:15.385  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 11:34:15.385  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 11:34:15.385  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 11:34:15.395  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 11:34:15.395  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 166 ms
+2025-12-30 11:34:15.412  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 11:34:15.419  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-12-30 11:34:15.424  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-12-30 11:34:15.424  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 11:34:15.444  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 11:34:15.444  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:34:15.477  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 11:34:15.588  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 11:34:15.622  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 11:34:15.628  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.429 seconds (JVM running for 433.472)
+2025-12-30 11:34:15.629  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 11:35:57.306  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 11:35:57.333  INFO 11748 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 11:35:57.365  INFO 11748 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:35:57.366  INFO 11748 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-12-30 11:35:57.369  INFO 11748 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-12-30 11:35:57.440  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 11:35:57.440  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 11:35:57.533  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 11:35:57.541  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2025-12-30 11:35:57.589  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 11:35:57.591  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 11:35:57.591  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 11:35:57.603  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 11:35:57.603  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 161 ms
+2025-12-30 11:35:57.626  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 11:35:57.632  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-12-30 11:35:57.636  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-12-30 11:35:57.636  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 11:35:57.657  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 11:35:57.657  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:35:57.697  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 11:35:57.757  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 11:35:57.791  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 11:35:57.796  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.382 seconds (JVM running for 535.64)
+2025-12-30 11:35:57.797  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 11:36:01.256  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 11:36:01.279  INFO 11748 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 11:36:01.287  INFO 11748 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:36:01.289  INFO 11748 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-12-30 11:36:01.293  INFO 11748 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-12-30 11:36:01.666  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 11:36:01.667  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 11:36:02.063  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 11:36:02.073  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2025-12-30 11:36:02.135  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 11:36:02.136  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 11:36:02.136  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 11:36:02.148  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 11:36:02.148  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 478 ms
+2025-12-30 11:36:02.178  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 11:36:02.185  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-12-30 11:36:02.191  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-12-30 11:36:02.191  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 11:36:02.217  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 11:36:02.218  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:36:02.263  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 11:36:02.345  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 11:36:02.354  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 11:36:02.365  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.763 seconds (JVM running for 540.209)
+2025-12-30 11:36:02.366  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 11:37:16.619  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 11:37:16.667  INFO 11748 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 11:37:16.675  INFO 11748 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:37:16.676  INFO 11748 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-12-30 11:37:16.681  INFO 11748 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2025-12-30 11:37:16.739  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 11:37:16.740  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 11:37:16.853  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 11:37:16.859  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2025-12-30 11:37:16.906  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 11:37:16.906  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 11:37:16.906  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 11:37:16.922  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 11:37:16.922  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 180 ms
+2025-12-30 11:37:16.945  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 11:37:16.947  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2025-12-30 11:37:16.952  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2025-12-30 11:37:16.953  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 11:37:16.979  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 11:37:16.979  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:37:17.029  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 11:37:17.104  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 11:37:17.134  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 11:37:17.139  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.42 seconds (JVM running for 614.983)
+2025-12-30 11:37:17.145  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 11:40:43.739  INFO 11748 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-30 11:40:43.740  INFO 11748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-30 11:40:43.742  INFO 11748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-30 11:42:05.247  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 11:42:05.271  INFO 11748 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 11:42:05.271  INFO 11748 --- [Thread-23] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-12-30 11:42:05.278  INFO 11748 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:42:05.279  INFO 11748 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2025-12-30 11:42:05.288  INFO 11748 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2025-12-30 11:42:05.350  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 11:42:05.350  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 11:42:05.443  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 11:42:05.449  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2025-12-30 11:42:05.489  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 11:42:05.490  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 11:42:05.490  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 11:42:05.499  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 11:42:05.499  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 148 ms
+2025-12-30 11:42:05.532  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 11:42:05.537  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2025-12-30 11:42:05.543  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2025-12-30 11:42:05.543  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 11:42:05.564  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 11:42:05.565  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:42:05.612  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 11:42:05.681  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 11:42:05.691  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 11:42:05.695  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.363 seconds (JVM running for 903.539)
+2025-12-30 11:42:05.698  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 11:42:13.032  INFO 11748 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-30 11:42:13.032  INFO 11748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-30 11:42:13.034  INFO 11748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-30 11:42:34.765  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 11:42:34.788  INFO 11748 --- [Thread-27] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 11:42:34.788  INFO 11748 --- [Thread-27] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-12-30 11:42:34.791  INFO 11748 --- [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:42:34.792  INFO 11748 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2025-12-30 11:42:34.795  INFO 11748 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2025-12-30 11:42:34.860  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 11:42:34.860  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 11:42:34.936  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 11:42:34.941  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+2025-12-30 11:42:34.986  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 11:42:34.987  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 11:42:34.987  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 11:42:35.017  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 11:42:35.017  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 156 ms
+2025-12-30 11:42:35.059  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 11:42:35.061  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2025-12-30 11:42:35.067  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2025-12-30 11:42:35.067  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 11:42:35.099  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 11:42:35.099  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:42:35.144  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 11:42:35.212  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 11:42:35.219  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 11:42:35.223  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.388 seconds (JVM running for 933.067)
+2025-12-30 11:42:35.225  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 11:42:37.659  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 11:42:37.681  INFO 11748 --- [Thread-31] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 11:42:37.686  INFO 11748 --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:42:37.686  INFO 11748 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2025-12-30 11:42:37.697  INFO 11748 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2025-12-30 11:42:37.753  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 11:42:37.754  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 11:42:37.866  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 11:42:37.913  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2025-12-30 11:42:37.973  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 11:42:37.973  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 11:42:37.973  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 11:42:37.985  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 11:42:37.985  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 230 ms
+2025-12-30 11:42:38.009  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 11:42:38.012  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2025-12-30 11:42:38.019  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2025-12-30 11:42:38.020  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 11:42:38.038  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 11:42:38.039  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:42:38.084  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 11:42:38.141  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 11:42:38.149  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 11:42:38.155  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.42 seconds (JVM running for 935.999)
+2025-12-30 11:42:38.156  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 11:58:47.150  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 11:58:47.200  INFO 11748 --- [Thread-35] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 11:58:47.212  INFO 11748 --- [Thread-35] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:58:47.212  INFO 11748 --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2025-12-30 11:58:47.217  INFO 11748 --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2025-12-30 11:58:47.282  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 11:58:47.282  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 11:58:47.368  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 11:58:47.373  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+2025-12-30 11:58:47.423  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 11:58:47.425  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 11:58:47.425  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 11:58:47.435  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 11:58:47.435  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 151 ms
+2025-12-30 11:58:47.466  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 11:58:47.470  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2025-12-30 11:58:47.475  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2025-12-30 11:58:47.475  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 11:58:47.518  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 11:58:47.519  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:58:47.562  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 11:58:47.631  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 11:58:47.637  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 11:58:47.649  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.396 seconds (JVM running for 1905.493)
+2025-12-30 11:58:47.650  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 11:58:54.096  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-12-30 11:58:54.116  INFO 11748 --- [Thread-39] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 11:58:54.120  INFO 11748 --- [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:58:54.121  INFO 11748 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2025-12-30 11:58:54.124  INFO 11748 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2025-12-30 11:58:54.201  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 11:58:54.201  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 11:58:54.288  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 11:58:54.296  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2025-12-30 11:58:54.362  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 11:58:54.363  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 11:58:54.363  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 11:58:54.375  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 11:58:54.375  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 172 ms
+2025-12-30 11:58:54.394  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 11:58:54.396  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2025-12-30 11:58:54.399  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2025-12-30 11:58:54.400  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 11:58:54.422  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 11:58:54.423  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 11:58:54.454  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 11:58:54.517  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 11:58:54.535  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 11:58:54.539  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.367 seconds (JVM running for 1912.383)
+2025-12-30 11:58:54.541  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 12:00:06.515  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 12:00:06.539  INFO 11748 --- [Thread-43] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 12:00:06.545  INFO 11748 --- [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:00:06.546  INFO 11748 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2025-12-30 12:00:06.551  INFO 11748 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2025-12-30 12:00:06.617  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 12:00:06.617  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 12:00:06.705  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 12:00:06.710  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+2025-12-30 12:00:06.772  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 12:00:06.773  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 12:00:06.773  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 12:00:06.786  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 12:00:06.787  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 169 ms
+2025-12-30 12:00:06.807  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 12:00:06.810  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2025-12-30 12:00:06.816  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2025-12-30 12:00:06.816  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 12:00:06.840  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 12:00:06.841  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:00:06.877  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 12:00:06.949  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 12:00:06.984  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 12:00:06.995  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.392 seconds (JVM running for 1984.839)
+2025-12-30 12:00:06.997  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 12:01:27.310  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 12:01:27.336  INFO 11748 --- [Thread-47] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 12:01:27.342  INFO 11748 --- [Thread-47] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:01:27.343  INFO 11748 --- [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2025-12-30 12:01:27.352  INFO 11748 --- [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2025-12-30 12:01:27.422  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 12:01:27.422  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 12:01:27.512  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 12:01:27.519  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2025-12-30 12:01:27.562  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 12:01:27.562  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 12:01:27.562  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 12:01:27.599  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 12:01:27.599  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 176 ms
+2025-12-30 12:01:27.617  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 12:01:27.623  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2025-12-30 12:01:27.629  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2025-12-30 12:01:27.630  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 12:01:27.649  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 12:01:27.649  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:01:27.684  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 12:01:27.782  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 12:01:27.817  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 12:01:27.823  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.423 seconds (JVM running for 2065.667)
+2025-12-30 12:01:27.826  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 12:02:04.869  INFO 11748 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-30 12:02:04.869  INFO 11748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-30 12:02:04.872  INFO 11748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-12-30 12:02:33.129  INFO 11748 --- [http-nio-8080-exec-3] com.user.controller.UserController       : User Details: User [uid=102, uname=Agastya, uaddress=Mumbai, country=India, userEmail=xyz@gmail.com]
+2025-12-30 12:02:33.130  INFO 11748 --- [http-nio-8080-exec-3] com.user.service.UserServiceImpl         : I'm in user service layer......
+2025-12-30 12:02:33.130  INFO 11748 --- [http-nio-8080-exec-3] com.user.service.UserServiceImpl         : User is....... User [uid=102, uname=Agastya, uaddress=Mumbai, country=India, userEmail=xyz@gmail.com]
+2025-12-30 12:02:33.182  INFO 11748 --- [http-nio-8080-exec-3] com.user.service.UserServiceImpl         : User Added.........!!!!!
+2025-12-30 12:23:06.894  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 12:23:06.926  INFO 11748 --- [Thread-51] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 12:23:06.927  INFO 11748 --- [Thread-51] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-12-30 12:23:06.936  INFO 11748 --- [Thread-51] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:23:06.936  INFO 11748 --- [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2025-12-30 12:23:06.943  INFO 11748 --- [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2025-12-30 12:23:07.096  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 12:23:07.097  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 12:23:07.394  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 12:23:07.412  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+2025-12-30 12:23:07.578  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 12:23:07.579  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 12:23:07.579  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 12:23:07.641  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 12:23:07.641  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 540 ms
+2025-12-30 12:23:07.713  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 12:23:07.721  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2025-12-30 12:23:07.730  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2025-12-30 12:23:07.731  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 12:23:07.776  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 12:23:07.777  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:23:07.980  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 12:23:08.131  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 12:23:08.148  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 12:23:08.175  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 1.136 seconds (JVM running for 3366.018)
+2025-12-30 12:23:08.183  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 12:31:41.168  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-12-30 12:31:41.201  INFO 11748 --- [Thread-55] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 12:31:41.205  INFO 11748 --- [Thread-55] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:31:41.206  INFO 11748 --- [Thread-55] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2025-12-30 12:31:41.211  INFO 11748 --- [Thread-55] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2025-12-30 12:31:41.284  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 12:31:41.284  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 12:31:41.390  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 12:31:41.396  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2025-12-30 12:31:41.444  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 12:31:41.448  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 12:31:41.448  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 12:31:41.460  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 12:31:41.461  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 176 ms
+2025-12-30 12:31:41.485  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 12:31:41.488  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2025-12-30 12:31:41.493  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2025-12-30 12:31:41.493  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 12:31:41.508  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 12:31:41.508  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:31:41.548  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 12:31:41.614  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 12:31:41.623  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 12:31:41.627  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.362 seconds (JVM running for 3879.471)
+2025-12-30 12:31:41.628  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 12:33:14.860  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 12:33:14.884  INFO 11748 --- [Thread-59] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 12:33:14.889  INFO 11748 --- [Thread-59] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:33:14.889  INFO 11748 --- [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2025-12-30 12:33:14.893  INFO 11748 --- [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2025-12-30 12:33:14.960  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 12:33:14.961  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 12:33:15.052  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 12:33:15.059  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2025-12-30 12:33:15.107  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 12:33:15.108  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 12:33:15.108  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 12:33:15.125  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 12:33:15.125  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 154 ms
+2025-12-30 12:33:15.147  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 12:33:15.153  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2025-12-30 12:33:15.157  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2025-12-30 12:33:15.158  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 12:33:15.176  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 12:33:15.176  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:33:15.209  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 12:33:15.259  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 12:33:15.301  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 12:33:15.306  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.364 seconds (JVM running for 3973.15)
+2025-12-30 12:33:15.310  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 12:35:41.952  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 12:35:41.977  INFO 11748 --- [Thread-63] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 12:35:41.980  INFO 11748 --- [Thread-63] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:35:41.981  INFO 11748 --- [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2025-12-30 12:35:41.986  INFO 11748 --- [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2025-12-30 12:35:42.063  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 12:35:42.064  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 12:35:42.145  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 12:35:42.151  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2025-12-30 12:35:42.194  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 12:35:42.195  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 12:35:42.195  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 12:35:42.206  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 12:35:42.206  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 141 ms
+2025-12-30 12:35:42.230  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 12:35:42.232  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
+2025-12-30 12:35:42.236  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
+2025-12-30 12:35:42.236  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 12:35:42.287  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 12:35:42.287  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:35:42.321  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 12:35:42.366  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 12:35:42.375  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 12:35:42.387  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.343 seconds (JVM running for 4120.231)
+2025-12-30 12:35:42.388  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 12:38:05.631  INFO 11748 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-30 12:38:05.631  INFO 11748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-30 12:38:05.634  INFO 11748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-12-30 12:40:36.533  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 12:40:36.554  INFO 11748 --- [Thread-67] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 12:40:36.554  INFO 11748 --- [Thread-67] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-12-30 12:40:36.559  INFO 11748 --- [Thread-67] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:40:36.560  INFO 11748 --- [Thread-67] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
+2025-12-30 12:40:36.563  INFO 11748 --- [Thread-67] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
+2025-12-30 12:40:36.624  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 12:40:36.624  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 12:40:36.695  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 12:40:36.703  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2025-12-30 12:40:36.737  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 12:40:36.738  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 12:40:36.738  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 12:40:36.785  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 12:40:36.785  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 159 ms
+2025-12-30 12:40:36.802  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 12:40:36.804  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
+2025-12-30 12:40:36.808  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Start completed.
+2025-12-30 12:40:36.809  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 12:40:36.827  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 12:40:36.828  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:40:36.860  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 12:40:36.901  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 12:40:36.913  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 12:40:36.919  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.313 seconds (JVM running for 4414.763)
+2025-12-30 12:40:36.920  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 12:52:23.974  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-12-30 12:52:23.994  INFO 11748 --- [Thread-71] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 12:52:23.998  INFO 11748 --- [Thread-71] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:52:23.999  INFO 11748 --- [Thread-71] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
+2025-12-30 12:52:24.092  INFO 11748 --- [Thread-71] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
+2025-12-30 12:52:24.160  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 12:52:24.160  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 12:52:24.270  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 12:52:24.277  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2025-12-30 12:52:24.327  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 12:52:24.327  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 12:52:24.327  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 12:52:24.364  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 12:52:24.364  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 203 ms
+2025-12-30 12:52:24.383  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 12:52:24.386  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
+2025-12-30 12:52:24.391  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Start completed.
+2025-12-30 12:52:24.392  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 12:52:24.408  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 12:52:24.408  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:52:24.456  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 12:52:24.498  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 12:52:24.529  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 12:52:24.534  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.395 seconds (JVM running for 5122.379)
+2025-12-30 12:52:24.538  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 12:53:27.228  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 12:53:27.252  INFO 11748 --- [Thread-75] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 12:53:27.259  INFO 11748 --- [Thread-75] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:53:27.260  INFO 11748 --- [Thread-75] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
+2025-12-30 12:53:27.264  INFO 11748 --- [Thread-75] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
+2025-12-30 12:53:27.323  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 12:53:27.323  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 12:53:27.389  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 12:53:27.395  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2025-12-30 12:53:27.464  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 12:53:27.465  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 12:53:27.465  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 12:53:27.502  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 12:53:27.503  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 179 ms
+2025-12-30 12:53:27.527  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 12:53:27.530  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
+2025-12-30 12:53:27.535  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Start completed.
+2025-12-30 12:53:27.536  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 12:53:27.556  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 12:53:27.557  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:53:27.609  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 12:53:27.674  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 12:53:27.682  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 12:53:27.687  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.379 seconds (JVM running for 5185.532)
+2025-12-30 12:53:27.689  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 12:54:57.044  INFO 11748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-30 12:54:57.071  INFO 11748 --- [Thread-79] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 12:54:57.078  INFO 11748 --- [Thread-79] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:54:57.078  INFO 11748 --- [Thread-79] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown initiated...
+2025-12-30 12:54:57.081  INFO 11748 --- [Thread-79] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown completed.
+2025-12-30 12:54:57.139  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 12:54:57.139  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 12:54:57.225  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 12:54:57.230  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+2025-12-30 12:54:57.263  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 12:54:57.263  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 12:54:57.264  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 12:54:57.302  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-30 12:54:57.302  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 162 ms
+2025-12-30 12:54:57.319  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 12:54:57.321  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Starting...
+2025-12-30 12:54:57.325  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Start completed.
+2025-12-30 12:54:57.325  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 12:54:57.339  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 12:54:57.339  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:54:57.345  WARN 11748 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes\com\user\controller\UserController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.user.controller.UserController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "/", delete this token
+	Syntax error on token "/", -> expected
+	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+	Syntax error, insert ";" to complete BlockStatements
+	id cannot be resolved
+
+2025-12-30 12:54:57.345  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:54:57.345  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown initiated...
+2025-12-30 12:54:57.347  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown completed.
+2025-12-30 12:54:57.347  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-30 12:54:57.351  INFO 11748 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-12-30 12:54:57.375 ERROR 11748 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes\com\user\controller\UserController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.user.controller.UserController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "/", delete this token
+	Syntax error on token "/", -> expected
+	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+	Syntax error, insert ";" to complete BlockStatements
+	id cannot be resolved
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921) ~[spring-context-5.3.29.jar:5.3.29]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.29.jar:5.3.29]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar:2.7.14]
+	at com.user.SpringBootUserManagementApplication.main(SpringBootUserManagementApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-2.7.14.jar:2.7.14]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.user.controller.UserController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "/", delete this token
+	Syntax error on token "/", -> expected
+	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+	Syntax error, insert ";" to complete BlockStatements
+	id cannot be resolved
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.29.jar:5.3.29]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "/", delete this token
+	Syntax error on token "/", -> expected
+	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+	Syntax error, insert ";" to complete BlockStatements
+	id cannot be resolved
+
+	at com.user.controller.UserController.<init>(UserController.java:88) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.29.jar:5.3.29]
+	... 24 common frames omitted
+
+2025-12-30 12:55:32.511  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 17.0.8.1 on Nihaab with PID 11748 (C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement\target\classes started by nihaa in C:\Users\nihaa\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\SpringBoot-UserManagement)
+2025-12-30 12:55:32.511  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-30 12:55:32.585  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-30 12:55:32.590  INFO 11748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+2025-12-30 12:55:32.648  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-30 12:55:32.649  INFO 11748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-30 12:55:32.649  INFO 11748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-12-30 12:55:32.659  INFO 11748 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-12-30 12:55:32.659  INFO 11748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 146 ms
+2025-12-30 12:55:32.677  INFO 11748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-30 12:55:32.682  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Starting...
+2025-12-30 12:55:32.685  INFO 11748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Start completed.
+2025-12-30 12:55:32.686  INFO 11748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-30 12:55:32.703  INFO 11748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-30 12:55:32.703  INFO 11748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-30 12:55:32.738  WARN 11748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-30 12:55:32.783  INFO 11748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-30 12:55:32.820  INFO 11748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-30 12:55:32.825  INFO 11748 --- [restartedMain] c.u.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 0.332 seconds (JVM running for 5310.669)
+2025-12-30 12:55:32.826  INFO 11748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-30 12:56:43.821  INFO 11748 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-30 12:56:43.822  INFO 11748 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-30 12:56:43.825  INFO 11748 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-12-30 12:56:43.830  INFO 11748 --- [http-nio-8080-exec-3] com.user.controller.UserController       : User Details: User [uid=103, uname=Sachin, uaddress=Bangalore, country=India, userEmail=sachin@gmail.com]
+2025-12-30 12:56:43.830  INFO 11748 --- [http-nio-8080-exec-3] com.user.service.UserServiceImpl         : I'm in user service layer......
+2025-12-30 12:56:43.830  INFO 11748 --- [http-nio-8080-exec-3] com.user.service.UserServiceImpl         : User is....... User [uid=103, uname=Sachin, uaddress=Bangalore, country=India, userEmail=sachin@gmail.com]
+2025-12-30 12:56:43.868  INFO 11748 --- [http-nio-8080-exec-3] com.user.service.UserServiceImpl         : User Added.........!!!!!
+2025-12-30 16:07:51.229  WARN 11748 --- [HikariPool-22 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-22 - Thread starvation or clock leap detected (housekeeper delta=3h6m46s747ms34µs200ns).
+2025-12-30 16:19:12.629  WARN 11748 --- [HikariPool-22 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-22 - Thread starvation or clock leap detected (housekeeper delta=10m21s382ms401µs500ns).
